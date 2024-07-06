@@ -1,0 +1,13 @@
+14:04:05:515  INFO 144232 --- [main] com.jndx.TradeApplication                : Starting TradeApplication using Java 17.0.11 on DESKTOP-IJRS560 with PID 144232 (D:\BaiduNetdiskDownload\spring_cloud\day02-Docker\资料\hmall\pay-service\target\classes started by gosling in D:\BaiduNetdiskDownload\spring_cloud\day02-Docker\资料\hmall)
+14:04:05:519 DEBUG 144232 --- [main] com.jndx.TradeApplication                : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:04:05:519  INFO 144232 --- [main] com.jndx.TradeApplication                : The following 1 profile is active: "dev"
+14:04:06:185  INFO 144232 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5a188a74-aa24-3cbb-a0c2-4822a3f9e8df
+14:04:06:469  INFO 144232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+14:04:06:470  INFO 144232 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+14:04:06:470  INFO 144232 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14:04:06:471  INFO 144232 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:04:06:475  INFO 144232 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+14:04:06:481  INFO 144232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:04:06:481  INFO 144232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:04:06:577  INFO 144232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1029 ms
+14:04:06:621  WARN 144232 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'payOrderServiceImpl' defined in file [D:\BaiduNetdiskDownload\spring_cloud\day02-Docker\资料\hmall\pay-service\target\classes\com\jndx\pay\service\impl\PayOrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jndx.api.client.UserClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
